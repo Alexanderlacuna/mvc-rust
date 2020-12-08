@@ -55,29 +55,6 @@ pub fn scoped_config(cfg:&mut web::ServiceConfig){
                }
            };
 
-          l
-        //    async {
-        //        let mut res=fut.await?;
-        //     Ok(res)
-        //    }
-          
-
-          
-          
-         
-        //    async{
-           
-              
-               
-               
-        //        let mut res=fut.await?;
-        //        if (4>1){
-        //            return Err(error::ErrorForbidden("no authentication"));
-        //        }
-        //       Ok(res)
-
-            
-        //    }
        }) 
        
         .route("/createUser",web::post().to(user_controller::create_user))
